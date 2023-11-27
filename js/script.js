@@ -24,8 +24,8 @@ let i = 0 ;
 
 while (i < spesaArray.length) { //finchè i è < della lunghezza dell'Array
     
-   text += spesaArray[i] + "<br>";
+   text += "<li>" + spesaArray[i] + "</li>";
+   spesa.innerHTML= text;
    i++;
 } 
 
-spesa.innerHTML= text;
